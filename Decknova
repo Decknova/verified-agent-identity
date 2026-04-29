@@ -4,13 +4,13 @@ on:
   workflow_dispatch:
     inputs:
       agent_name:
-        description: 'Agent Name'
+        description: 'Decknova'
         required: true
-        default: 'gm_lokie'
+        default: 'Decknova'
       agent_description:
         description: 'Agent Description'
         required: true
-        default: 'gm_lokie AI Agent'
+        default: 'Decknova AI Agent'
 
 jobs:
   verify:
